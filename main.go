@@ -7,7 +7,7 @@ import (
 )
 
 func helloHandler(w http.ResponseWriter, r *http.Request) {
-    fmt.Fprintf(w, "Hello, welcome to my Go API!")
+    fmt.Fprintf(w, "Hello motherfucker, Selamat datang di Indomaret!")
 }
 
 func main() {

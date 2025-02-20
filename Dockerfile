@@ -13,7 +13,7 @@ RUN go mod download
 # Copy the rest of the source code
 COPY . .
 
-# Build the main application
+# Build main.go specifically
 RUN go build -o /go/bin/app main.go
 
 FROM alpine:latest
